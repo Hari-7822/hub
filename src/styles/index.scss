@@ -1,0 +1,14 @@
+@use './comps/mixin' as f;
+
+
+.header {
+    
+    // background: #2f2f2f;i
+    backdrop-filter: blur(12px);
+
+    &__main {
+        
+        @include f.flex(row,none, space-between);
+    }
+
+}

@@ -1,3 +1,8 @@
+@use './index.scss';
+@use './card.scss';
+@use './login.scss';
+
 body{
-    background: linear-gradient(106deg, #363535, #787770)
+    // background: linear-gradient(106deg, #363535, #787770);
+    background: #3161a9;
 }

@@ -1,0 +1,11 @@
+@use './comps/mixin' as f;
+
+.form {
+
+    @include f.flex(column, center, center);
+    height : 100vh;
+    border-radius: 12px;
+
+    box-shadow: 1px 2px 2px 3px #2f2f2f;
+
+}

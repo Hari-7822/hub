@@ -1,19 +1,17 @@
-import Head from 'next/head';
 import Header from './comps/header';
+import Card from './comps/card';  
 
 const Home = () => {
 
   return(
 <>
-    <Head>
-
-      <title>Auction Hub</title>
-
-    </Head>
-
-    <Header />
     
-    <h2>hi</h2>
+    
+    
+    
+      <div className="card">
+        <Card />
+      </div>
 
 
 </>
